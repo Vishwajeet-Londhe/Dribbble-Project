@@ -8,3 +8,67 @@ html, body{
     width: 100%;
     height: 100%;
 }
+
+#page1{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(163, 136, 136); */
+}
+
+#nav{
+    height: 120px;
+    width: 100%;
+    /* background-color: royalblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#nav-part1{
+    width: 33%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-part1 h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#nav-part2{
+    width: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#nav-part2 button{
+    padding: 15px 22px;
+    font-weight: 600;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+#nav-part2 button:nth-child(1){
+    background-color:transparent;
+    color: #000;
+}
+
+#nav img{
+    height: 110px;
+}
+
+
+#content{
+    height: calc(100% - 120px);
+    width: 100%;
+    /* background-color: crimson; */
+}
