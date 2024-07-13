@@ -71,11 +71,11 @@ html, body{
     height: calc(100% - 120px);
     width: 100%;
     /* background-color: crimson; */
-    padding-top: 90px;
+    padding-top: 80px;
 }
 
 #content h3{
-    background-color: #f2b0EA;
+    background-color: #E4B5EE;
     padding: 10px 16px;
     border-radius: 50px;
     width: fit-content;
@@ -89,16 +89,16 @@ html, body{
 }
 
 #content h1{
-    font-size: 60px;
+    font-size: 75px;
     text-align: center;
     margin: 25px 0;
     font-family: "Source Serif 4";
     font-weight: 100;
-    line-height: 60px;
+    line-height: 70px;
 }
 
 #content h4{
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
     font-weight: 500;
 }
