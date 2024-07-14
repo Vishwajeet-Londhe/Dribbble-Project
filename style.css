@@ -155,10 +155,24 @@ html, body{
     width: 260px;
     height: 100%;
     margin-right: 30px;
+    position: relative;
     background-color: royalblue;
     border-radius: 40px;
     /* border: 2px solid black; */
     overflow: hidden;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 30px));
+    }
 }
 
 .elem img{
@@ -167,6 +181,26 @@ html, body{
     object-fit: cover;
     object-position: center;
 }
+
+.elem video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.elem .text-bottom{
+    height: 30%;
+    width: 100%;
+    /* background-color: black; */
+    bottom: 0;
+    position: absolute;
+    color: white;
+    padding-left: 13px;
+    line-height: 20px;
+}
+
+
 
 #page2{
     height: 100%;
