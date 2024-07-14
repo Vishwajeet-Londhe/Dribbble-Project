@@ -12,7 +12,7 @@ html, body{
 #page1{
     width: 100%;
     height: 100%;
-    /* background-color: rgb(163, 136, 136); */
+    background-color: #F8F7F4;
 }
 
 #nav{
@@ -21,8 +21,8 @@ html, body{
     /* background-color: royalblue; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 40px;
+    justify-content: flex-start;
+    padding: 0 23px;
 }
 
 #nav-part1{
@@ -31,11 +31,13 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 0 0 40px; 
 }
 
 #nav-part1 h4{
     font-size: 18px;
     font-weight: 500;
+    font-family: mona sans;
 }
 
 #nav-part2{
@@ -44,9 +46,26 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    border-radius: 50%;
+    /* background-color:#FFFFFF; */
 }
 
 #nav-part2 button{
+    padding: 0 0 0 8px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+#nav-part3{
+    width: 25%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#nav-part3 button{
     padding: 15px 22px;
     font-weight: 600;
     border: none;
@@ -54,16 +73,16 @@ html, body{
     color: #fff;
     border-radius: 50px;
     font-size: 14px;
-    margin: 0 10px;
+    margin: 0 0px;
 }
 
-#nav-part2 button:nth-child(1){
+#nav-part3 button:nth-child(1){
     background-color:transparent;
     color: #000;
 }
 
 #nav img{
-    height: 110px;
+    height: 92px;
 }
 
 
@@ -91,7 +110,7 @@ html, body{
 #content h1{
     font-size: 75px;
     text-align: center;
-    margin: 25px 0;
+    margin: 50px 0;
     font-family: "Source Serif 4";
     font-weight: 100;
     line-height: 70px;
@@ -104,7 +123,7 @@ html, body{
 }
 
 #content button{
-    padding: 16px 28px;
+    padding: 20px 28px;
     font-weight: 600;
     border: none;
     background-color: black;
@@ -116,3 +135,24 @@ html, body{
     left: 50%;
     transform: translateX(-50%);
 }
+
+#bottom{
+    width: 100%;
+    height: 350px;
+    /* background-color: red; */
+    padding: 5px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.elem{
+    display: inline-block;
+    width: 260px;
+    height: 100%;
+    margin-right: 30px;
+    background-color: royalblue;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+
