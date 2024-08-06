@@ -1,3 +1,3 @@
 # Dribbble-Project
 
-I had made this project by observing dribbble website
+I made this project by observing dribbble website and successfully cloned.
